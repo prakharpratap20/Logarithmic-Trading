@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import date
 
 # Define the stock symbol and the date range you're interested in
-stock_symbol = "TSLA"  # Example: Apple Inc.
-start_date = "2000-01-01"
+stock_symbol = input("Enter Ticker Symbol: ")  # Example: Apple Inc.
+start_date = "2013-01-01"
 current_date = date.today()
 end_date = current_date
 
