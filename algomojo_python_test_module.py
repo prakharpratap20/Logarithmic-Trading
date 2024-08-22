@@ -1,5 +1,4 @@
-from algomojo.pyapi import *
-import time
+from algomojo.pyapi import api
 import logging
 
 logger = logging.getLogger(__name__)
